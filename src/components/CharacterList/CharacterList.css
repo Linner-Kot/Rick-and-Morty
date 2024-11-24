@@ -1,0 +1,29 @@
+.character-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.character-item-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #515151;
+  margin-top: 5px;
+  padding-bottom: 5px;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.character-item-name {
+  color: var(--font-color);
+  padding: 10px;
+}
+
+.character-item-image {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
