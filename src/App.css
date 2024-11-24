@@ -1,0 +1,41 @@
+:root {
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: var(--blue-accent) #353c41;
+  --font-color: #ececec;
+  --blue-accent: #007bff;
+  background-color: #1e2124;
+}
+
+.main-container {
+  display: block;
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  background-color: #23272a;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: var(--font-color);
+  margin-bottom: 20px;
+}
+
+.error {
+  text-align: center;
+  margin-top: 10px;
+  color: red;
+  border-radius: 6px;
+  border: 1px red solid;
+  padding: 8px;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 10px;
+  color: var(--font-color);
+  padding: 8px;
+}
